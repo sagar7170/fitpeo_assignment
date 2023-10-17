@@ -7,7 +7,7 @@ function Page1() {
   return (
     <div className='flex flex-wrap  mt-4 justify-evenly '>
     
-        <div className='bg-white lg:w-72 w-full  p-2  h-44 rounded-lg items-center justify-center flex space-x-3 m-3'>
+        <div className='bg-white lg:w-64 w-full  p-2  h-44 rounded-lg items-center justify-center flex space-x-3 m-3'>
           <div className='bg-green-200 rounded-full p-10'>
              <MonetizationOnOutlinedIcon color='success' fontSize='large'/>
           </div>
@@ -18,7 +18,7 @@ function Page1() {
           </div>
         </div>
 
-        <div className='bg-white lg:w-72 w-full justify-center p-2 h-44 rounded-lg items-center flex space-x-3 m-3'>
+        <div className='bg-white lg:w-64 w-full justify-center p-2 h-44 rounded-lg items-center flex space-x-3 m-3'>
           <div className='bg-purple-200 rounded-full p-10 text-purple-900'>
              <ArticleIcon  fontSize='large'/>
           </div>
@@ -29,7 +29,7 @@ function Page1() {
           </div>
         </div>
 
-        <div className='bg-white lg:w-72 w-full justify-center p-2 h-44 rounded-lg items-center flex space-x-3 m-3'>
+        <div className='bg-white lg:w-64 w-full justify-center p-2 h-44 rounded-lg items-center flex space-x-3 m-3'>
           <div className='bg-blue-200 text-blue-800 rounded-full p-10'>
              <AccountBalanceWalletIcon  fontSize='large'/>
           </div>
@@ -40,7 +40,7 @@ function Page1() {
           </div>
         </div>
 
-        <div className='bg-white lg:w-72 w-full justify-center p-2 h-44 rounded-lg items-center flex space-x-3 m-3'>
+        <div className='bg-white lg:w-64 w-full justify-center p-2 h-44 rounded-lg items-center flex space-x-3 m-3'>
           <div className='bg-pink-200 text-pink-900 rounded-full p-10'>
              <ShoppingBagIcon  fontSize='large'/>
           </div>

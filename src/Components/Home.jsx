@@ -22,7 +22,7 @@ function Home() {
         <div className='flex relative'>
 
             {/* SIDEBAR */}
-            <div className='fixed '>
+            <div className='fixed z-30'>
             <div className={!show ? 'hidden' : 'flex bg-blue-900 w-64 h-screen p-3 absolute z-10 flex-col justify-between '}>
                 <div className='space-y-10'>
                     <div className='text-white  flex  items-center justify-between'>
@@ -139,7 +139,7 @@ function Home() {
                 <div onClick={sidebar} className='bg-pink-100 sm:hidden flex  '>
                 <MenuOpenOutlinedIcon fontSize='large' />
                 </div>
-                
+
                 <Page1/>
                 <Page2/>
                 <Page3/>
