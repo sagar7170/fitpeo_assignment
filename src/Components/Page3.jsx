@@ -3,7 +3,6 @@ import React from 'react'
 function Page3() {
   return (
     <div className='bg-white mt-2 p-3'>
-
       <div className='flex justify-between mb-12'>
         <span className='font-bold'>Product Sell</span>
         <div className='flex justify-between space-x-3'>
@@ -12,9 +11,9 @@ function Page3() {
         </div>
       </div>
 
-      <div>
+      <div className='space-y-2'>
         <div className='flex justify-between '>
-          <div className=' space-x-2 items-center'>
+          <div className='sm:flex space-x-2 items-center'>
             <img className='sm:w-20 sm:h-10 w-16  rounded-md' src="https://4kwallpapers.com/images/walls/thumbs/12661.jpg" alt="" />
             <h1 className='font-bold text-sm'>Abstract</h1>
           </div>
@@ -26,9 +25,9 @@ function Page3() {
       </div>
       
         <div className='flex justify-between'>
-          <div className=' space-x-2 items-center'>
-            <img className='sm:w-20 sm:h-10 w-16 rounded-md' src="https://cdn2.vectorstock.com/i/1000x1000/57/61/smooth-abstract-wallpaper-vector-12285761.jpg" alt="" />
-            <h1 className='font-bold text-sm'>Sarphens illustration</h1>
+          <div className='sm:flex space-x-2 items-center'>
+            <img className='sm:w-20 sm:h-10 w-16 rounded-md' src="https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg" alt="" />
+            <h1 className='font-bold text-sm'>Sarphens </h1>
           </div>
           <div className='space-x-5 flex'>
             <span className='text-center text-sm'><h1 className='text-sm text-gray-400'>Stock</h1>32 in stock</span>
